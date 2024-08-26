@@ -41,3 +41,27 @@ ids = search_pubmed("machine learning", max_results=10)
 
 # Fetch details for the retrieved articles
 details = fetch_article_details(ids)
+
+
+
+
+mpox-virus-research/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── requirements.txt
+├── src/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── text_analysis.py
+│   ├── modeling.py
+│   └── visualization.py
+├── notebooks/
+│   └── analysis_notebook.ipynb
+└── tests/
+    ├── __init__.py
+    ├── test_data_preprocessing.py
+    ├── test_text_analysis.py
+    ├── test_modeling.py
+    └── test_visualization.py
+
