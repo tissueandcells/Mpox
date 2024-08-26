@@ -1,3 +1,8 @@
-biopython
+gensim==3.8.3
+nltk
+matplotlib
+seaborn
+transformers
 pandas
-requests
+scikit-learn
+networkx
