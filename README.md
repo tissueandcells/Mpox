@@ -8,6 +8,14 @@ This project provides a simple tool to search for articles on PubMed based on a 
 - Search for articles on PubMed using a keyword.
 - Fetch detailed information about articles using PubMed IDs.
 
+## Usage
+
+Before using the `search_pubmed` function, make sure to set your email address in the `search.py` file:
+
+```python
+Entrez.email = "your-email@example.com"
+
+
 ## Installation
 
 1. Clone the repository:
